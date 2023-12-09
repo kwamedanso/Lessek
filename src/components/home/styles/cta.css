@@ -1,0 +1,53 @@
+.final-cta{
+    position: relative;
+    color: white;
+}
+
+.behind{
+    max-width: 98%;
+    margin: auto;
+    background-color: var(--primary-green);
+    transform: rotate(2.5deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.behind, .cta{
+   border-radius: 10px;
+}
+
+.cta{
+    position: relative;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    z-index: 2;
+    height: auto;
+}
+.cta-content-text{
+    flex-basis: 50%;
+    
+}
+
+.contact-us-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.contact-us-wrapper button{
+    padding: 15px 20px;
+}
+
+@media screen and (max-width:768px) {
+    .cta{
+        grid-template-columns: none;
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+}

@@ -1,0 +1,31 @@
+#hero-section{
+    color: white;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    background-repeat: no-repeat;
+
+}
+
+.hero-text-small{
+    font-size: var(--size-300);
+    font-weight: normal;
+}
+
+.hero-content{
+    text-align: center;
+
+}
+
+@media screen and (min-width: 850px) {
+    .hero-content{
+        width: 55%;
+        text-align: left;
+    }
+    .hero-text-small{
+        font-size: var(--size-400);
+    }
+}

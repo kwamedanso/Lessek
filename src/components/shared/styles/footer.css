@@ -1,0 +1,32 @@
+.footer-section{
+    background-color: var(--dark-gray);
+    color: white;
+    padding: 3rem 0;
+}
+.footer-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+}
+
+.footer-wrapper a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-wrapper a:hover{
+    text-decoration: underline;
+}
+
+.copyrights{
+    text-align: center;
+    padding-block: 1rem;
+}
+
+.footer-section hr{
+    border: none;
+    border-bottom: 1px solid white;
+}
