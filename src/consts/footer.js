@@ -17,7 +17,7 @@ const footer = [
         about: [
             {
                 id: 1,
-                title: "Tema Community 9",
+                title: "Tema Community 1",
                 path: "https://www.google.com.gh/maps/place/tema/data=!4m7!3m6!1s0xe2b39c938c43345:0xe5322026339cae26!8m2!3d10.8167559!4d-0.8614735!16s%2Fg%2F11b75pp4l3!19sChIJRTPEOMk5Kw4RJq6cMyYgMuU?authuser=0&hl=en&rclk=1",
                 icon: <BiCurrentLocation />
             },
