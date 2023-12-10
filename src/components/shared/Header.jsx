@@ -8,7 +8,7 @@ export default function Header() {
         <header>
             <div className="header-wrapper section-margin">
                 <div className="logo" onClick={() => setHamburger(false)}>
-                    <NavLink to={"/"}>Lessek</NavLink>
+                    <NavLink to={"/"}>Lessek Contractors</NavLink>
                 </div>
 
                 <nav className={`nav-links-wrapper ${hamburger ? "active" : null}`}>
